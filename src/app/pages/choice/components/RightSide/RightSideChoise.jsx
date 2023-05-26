@@ -15,7 +15,6 @@ import InfPlant from "../../../../components/ui/infPlant/infPlant";
     return(
         <div  className="right_side">
             <div className="informations_plant">
-               
                 {character.map((elem) => (<InfPlant body={plantChoiced[id][elem]} text={elem}/>))}
             </div>
             <img src={imgBigPlants} className="right_side__image_plants" alt="" />
