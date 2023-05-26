@@ -1,6 +1,6 @@
 import React from 'react';
 
-const componentName = () => {
+const Main = () => {
     return (
         <div>
                 <div class="top-panel">
@@ -217,4 +217,4 @@ const componentName = () => {
     );
 };
 
-export default componentName;
+export default Main;

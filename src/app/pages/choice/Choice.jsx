@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/index.css';
-import LeftSide from '../../components/shared/LeftSide/LeftSide';
-import RightSideChoise from '../../components/shared/RightSide/RightSideChoise';
+import LeftSide from './components/LeftSide/LeftSide';
+import RightSideChoise from './components/RightSide/RightSideChoise';
 function Choice() {
 
 

@@ -1,9 +1,9 @@
 import React, { useState} from "react";
 import PlantsElement from "./PlantsElement";
-import search from '../../../pages/choice/image/search.png';
-import usePlantsStore from "../../../pages/choice/store";
+import search from '../../image/search.png';
+import usePlantsStore from "../../store";
 
- const LefsSide = function ({idGetNextFinal}){
+ const LefsSide =  () => {
     const listPlants = usePlantsStore((state) => state.listPlants)
 
 
@@ -18,16 +18,12 @@ import usePlantsStore from "../../../pages/choice/store";
             <div className="navigation_main">
                 <div className="navigation">
                     <input value={value} type="text" className="navigation__text" onChange={(event) => setValue(event.target.value)} placeholder="Тип растения"/>
-                    <img src={search} className="navigation__sticker"/>
+                    <img src={search} className="navigation__sticker" alt=""/>
                 </div>
             </div>
             <div className="list_of_plants">
                 {
-                    filteredPlants.map((listPlants) => {
-                        return(
-                            <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} />
-                        )
-                    })
+                    filteredPlants.map((listPlants) =>  <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} /> )
                 }
             </div>
         </div>
