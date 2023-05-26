@@ -9,5 +9,4 @@ const InfPlant = ({body, text}) => {
                 </div>
     );
 };
-
 export default InfPlant;
