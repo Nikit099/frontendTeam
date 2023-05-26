@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" href="styles/slider.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/top-panel.css">
+    <link rel="stylesheet" type="text/css" href="styles/square-plant-icon.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/rectangular-plant-icon.css">
+</head>
+
+<body>
+    <div class="top-panel">
+        <div class="search">
+            <img src="images/search_icon.png">
+            <form action="" method="get">
+                <input name="s" placeholder="Найти" type="search">
+            </form>
+        </div>
+        <div class="slider">
+            <img src="images/frown.png" id="slider-left-icon">
+            <input type="range" min="1" max="100" value="50" class="myRange">
+            <img src="images/smile.png" id="slider-right-icon">
+        </div>
+        <div class="logo">
+            <a href="#">
+                <img src="images/logoEMP.png" width="77" height="77" width="77">
+            </a>
+        </div>
+
+    </div>
+    <!-- ------------------------------------------------ -->
+    <div id="notifications-table">
+
+        <div class="square-buttons">
+            <div class="transparent">
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Владик</div>
+                        <div class="button-description">Срочно поставьте в
+                            теплое место</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Максим</div>
+                        <div class="button-description">Срочно обильно полейте</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+            </div>
+            <div class="transparent">
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Иван</div>
+                        <div class="button-description">Срочно поставьте под солнце</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Кирилл</div>
+                        <div class="button-description">Срочно поставьте в
+                            теплое место</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+            </div>
+            <div class="transparent">
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Степан</div>
+                        <div class="button-description">Срочно уберите с солнца</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+                <button class="square-button">
+                    <div class="button-head-background"></div>
+                    <div class="red-lamp"></div>
+                    <div class="button-text">
+                        <div class="button-title">Никита</div>
+                        <div class="button-description">Срочно уберите с солнца</div>
+                    </div>
+                    <div class="button-icons">
+                        <img src="images/battery-half.png" class="left-button-small-icon" height="23px" width="23px">
+                        <div class="button-small-icons">
+                            <img src="images/fire.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/dawn.png" class="right-button-small-icon" height="23px" width="23px">
+                            <img src="images/rain.png" class="right-button-small-icon" height="23px" width="23px">
+                        </div>
+                    </div>
+                    <img src="images/plant_photo.png" class="plant-icon" height="182" width="182">
+                    <img src="images/frozen.png" class="state-icon" height="48px" width="47px">
+                </button>
+            </div>
+        </div>
+        <input type="button" id="prev" value="<-">
+        <input type="button" id="next" value="->">
+    </div>
+
+    <!-- ------------------------------------------------ -->
+    <div class="rectangular-buttons">
+        <button class="rectangular-button">
+            <img src="images/Nina-plant.png" class="rectangular-button-plant-icon" width="202px" height="188px">
+            <div class="rectangular-button-state-display">
+                <img src="images/emoji-pleased.png" class="rectangular-button-plant-state-icon">
+            </div>
+            <div class="rectangular-button-head-background"></div>
+            <div class="rectangular-button-text">
+                <div class="rectangular-button-title">Нина</div>
+                <div class="rectangular-button-description">Dracena Fr.</div>
+                <div class="rectangular-button-description">Полейте через 2 часа</div>
+            </div>
+            <div class="rectangular-button-small-icons">
+                <img src="images/fire.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/dawn.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/rain.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/battery-half.png" class="rectangular-button-small-icon" height="23px" width="23px">
+            </div>
+            <div class="rectangular-button-timeline">
+                <img src="images/timeline.png">
+            </div>
+        </button>
+        <button class="rectangular-button">
+            <img src="images/Nina-plant.png" class="rectangular-button-plant-icon" width="202px" height="188px">
+            <div class="rectangular-button-state-display">
+                <img src="images/emoji-pleased.png" class="rectangular-button-plant-state-icon">
+            </div>
+            <div class="rectangular-button-head-background"></div>
+            <div class="rectangular-button-text">
+                <div class="rectangular-button-title">Нина</div>
+                <div class="rectangular-button-description">Dracena Fr.</div>
+                <div class="rectangular-button-description">Полейте через 2 часа</div>
+            </div>
+            <div class="rectangular-button-small-icons">
+                <img src="images/fire.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/dawn.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/rain.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/battery-half.png" class="rectangular-button-small-icon" height="23px" width="23px">
+            </div>
+            <div class="rectangular-button-timeline">
+                <img src="images/timeline.png">
+            </div>
+        </button>
+        <button class="rectangular-button">
+            <img src="images/Nina-plant.png" class="rectangular-button-plant-icon" width="202px" height="188px">
+            <div class="rectangular-button-state-display">
+                <img src="images/emoji-pleased.png" class="rectangular-button-plant-state-icon">
+            </div>
+            <div class="rectangular-button-head-background"></div>
+            <div class="rectangular-button-text">
+                <div class="rectangular-button-title">Нина</div>
+                <div class="rectangular-button-description">Dracena Fr.</div>
+                <div class="rectangular-button-description">Полейте через 2 часа</div>
+            </div>
+            <div class="rectangular-button-small-icons">
+                <img src="images/fire.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/dawn.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/rain.png" class="rectangular-button-small-icon" height="23px" width="23px">
+                <img src="images/battery-half.png" class="rectangular-button-small-icon" height="23px" width="23px">
+            </div>
+            <div class="rectangular-button-timeline">
+                <img src="images/timeline.png">
+            </div>
+        </button>
+    </div>
+
+    <script type="text/javascript" src="scripts/slider.js"></script>
+</body>
+
+</html>
