@@ -6,12 +6,6 @@ import usePlantsStore from "../../../pages/choice/store";
  const LefsSide = function ({idGetNextFinal}){
     const listPlants = usePlantsStore((state) => state.listPlants)
 
-    // const [listPlants, setListPlants] = useState()
-    const [idGet, setIdGet] = useState('')
-    const idGetFunction = (idGet) =>{
-        setIdGet(idGet)
-        idGetNextFinal(idGet)
-    }
 
     const [value, setValue] = useState('')
 
@@ -23,7 +17,7 @@ import usePlantsStore from "../../../pages/choice/store";
         <div className="left_side">
             <div className="navigation_main">
                 <div className="navigation">
-                    <input type="text" className="navigation__text" onChange={(event) => setValue(event.target.value)} placeholder="Тип растения"/>
+                    <input value={value} type="text" className="navigation__text" onChange={(event) => setValue(event.target.value)} placeholder="Тип растения"/>
                     <img src={search} className="navigation__sticker"/>
                 </div>
             </div>
@@ -31,7 +25,7 @@ import usePlantsStore from "../../../pages/choice/store";
                 {
                     filteredPlants.map((listPlants) => {
                         return(
-                            <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} idGet={idGetFunction}/>
+                            <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} />
                         )
                     })
                 }
