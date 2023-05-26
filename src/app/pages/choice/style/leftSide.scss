@@ -47,6 +47,12 @@
             width: 569px;
             height: 216px;
             background-color: #E9F3ED;
+            &:hover{
+                background-color: #D3E7DB;
+                .list_of_plants__left_top_figure{
+                    background-color: #BFDFC9;
+                }
+            }
             .list_of_plants__left_top_figure{
                 width: 195px;
                 height: 139px;

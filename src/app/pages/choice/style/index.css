@@ -244,6 +244,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 216px;
   background-color: #E9F3ED;
 }
+.main .left_side .list_of_plants .list_of_plants__element_plants:hover {
+  background-color: #D3E7DB;
+}
+.main .left_side .list_of_plants .list_of_plants__element_plants:hover .list_of_plants__left_top_figure {
+  background-color: #BFDFC9;
+}
 .main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__left_top_figure {
   width: 195px;
   height: 139px;
