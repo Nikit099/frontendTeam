@@ -1,5 +1,9 @@
 import React from 'react';
-
+import './styles/index.css'
+import './styles/slider.css'
+import './styles/square-plant-icon.css'
+import './styles/top-panel.css'
+import './styles/rectangular-plant-icon.css'
 const Main = () => {
     return (
         <div>

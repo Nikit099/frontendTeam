@@ -1,5 +1,7 @@
 import React from 'react';
 import './registr.css'
+import { Link } from "react-router-dom"
+
 const Registr = () => {
     return (
         <div className="login-box">
@@ -17,15 +19,15 @@ const Registr = () => {
 			</div>
 
 			<div className="log-in">
-				<a href='//'  >
+				<Link to={'/choice'}>
 					Зарегестрироваться
-				</a>
+				</Link>
 
 			</div>
 			<div className="sign-up">
-				<a href='//' >
+				<Link to={'/login'}>
 					Уже есть аккаунт
-				</a>
+				</Link>
 			</div>
 
 		</form>
