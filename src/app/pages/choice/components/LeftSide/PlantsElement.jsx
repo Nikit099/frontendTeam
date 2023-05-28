@@ -12,6 +12,7 @@ import usePlantsStore from  "../../store";
     return(
             <div id={id} className="list_of_plants__element_plants" onClick={() => idSet(id)}>
                 <img src={rosendahl} className="list_of_plants__sticker_plants"  alt=""/>
+                <div className="right_side__shadow"></div>
                 <div className="list_of_plants__left_top_figure"></div>
                 <div className="list_of_plants_text">
                     <span className="list_of_plants__hieght_text">{posts}</span>

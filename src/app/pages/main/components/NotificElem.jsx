@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 
 const NotificElem = ({name,  recomendate,  plant, elems, face,}) => {
     return (
-
                <Link to={'/setting'}>
                 <button class="square-button">
                     <div class="button-head-background"></div>
@@ -19,15 +18,15 @@ const NotificElem = ({name,  recomendate,  plant, elems, face,}) => {
                         <div class="button-description">{recomendate}</div>
                     </div>
                     <div class="button-icons">
-                        <img alt=''  src={battery}  class="left-button-small-icon" height="23px" width="23px" />
+                        <img alt=''  src={battery}  class="left-button-small-icon"  />
                         <div class="button-small-icons">
-                            <img alt='' src={fire} class="right-button-small-icon" height="23px" width="23px" />
-                            <img alt='' src={dawn} class="right-button-small-icon" height="23px" width="23px" />
-                            <img alt='' src={rain} class="right-button-small-icon" height="23px" width="23px" />
+                            <img alt='' src={fire} class="right-button-small-icon" />
+                            <img alt='' src={dawn} class="right-button-small-icon" />
+                            <img alt='' src={rain} class="right-button-small-icon" />
                         </div>
                     </div>
                     <img alt=''  src={plantF} class="plant-icon" height="182" width="182" />
-                    <img alt='' src={frozen} class="state-icon" height="48px" width="47px" />
+                    <img alt='' src={frozen} class="state-icon" />
                 </button>
                 </Link>
     );

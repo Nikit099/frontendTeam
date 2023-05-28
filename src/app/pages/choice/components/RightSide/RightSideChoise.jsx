@@ -19,6 +19,7 @@ import { Link } from "react-router-dom";
                 {character.map((elem) => (<InfPlant body={plantChoiced[id][elem]} text={elem}/>))}
             </div>
             <img src={imgBigPlants} className="right_side__image_plants" alt="" />
+            <div className="right_side__shadow"></div>
             <div className="right_side__figure_left_top"></div>
             <div className="information">
                 <span className="information__hieght_text">{plantChoiced[id].namePlants}</span>
@@ -30,8 +31,8 @@ import { Link } from "react-router-dom";
                     <img src={dawn} className="information__sticker" alt=""/>
                     <img src={rain} className="information__sticker" alt=""/>
                 </div>
-                {/* <button> */}
-                <Link to={'/createPlant'}> <input tupe="button" value="Подтвердить выбор" className="information__button"/> </Link>
+                
+                <Link to={'/CreatePlant'}><button type="button" className="information__button">Подтвердить выбор</button></Link>
             </div>
         </div>
     )

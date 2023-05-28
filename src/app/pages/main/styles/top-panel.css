@@ -9,7 +9,7 @@
 }
 
 .top-panel {
-    width: auto;
+    width: 1288px;
     position: relative;
     display: flex;
     margin-bottom: 110px;
@@ -48,14 +48,16 @@
 }
 
 .top-panel .search {
+    
     background-color: #fff;
-    height: 17px;
-    width: 400px;
+    height: 55px;
+    width: 440px;
     border: none;
     border-radius: 21px;
     filter: drop-shadow(2px 4px 13px rgba(138, 138, 138, 0.25));
     display: flex;
     padding: 20px;
+    margin-left: 172px;
 }
 
 .top-panel .search img {
