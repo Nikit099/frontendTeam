@@ -4,16 +4,21 @@ import './setting.css'
 import TopElem from './components/TopElem';
 import BottomElem from './components/BottomElem';
 import arrow from './media/arrow-left-circle.png'
+import BackgroundElem from './components/BackgroundElem';
 import { Link } from 'react-router-dom';
+
+
 const Setting = () => {
 
     return (
-        <div>
 
+        <div>
+          
               <div className="header">
         <div className="name">Ольга</div>
           <Link to={'/main'} > <img alt='' src={arrow}/></Link>
         </div>
+          <BackgroundElem/>
           <TopElem/>
           <BottomElem/>
         </div>

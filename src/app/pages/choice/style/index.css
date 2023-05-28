@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -165,10 +167,10 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   margin-top: 150px;
   margin-left: 98px;
-  font-family: "Montserrat";
-  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 20pt;
   line-height: 24px;
   color: #498553;
 }
@@ -194,10 +196,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 58px;
   text-align: center;
   border-radius: 30px 30px 30px 30px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16pt;
   line-height: 20px;
   cursor: pointer;
   display: -webkit-box;
@@ -212,6 +214,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main .right_side .information .information__button:hover {
   background-color: #42794B;
+}
+
+.main .right_side .information .information__button:hover {
+  background-color: #427948;
 }
 .main .left_side {
   max-width: 632px;
@@ -284,10 +290,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: -100px 0px 0px 212px;
 }
 .main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__hieght_text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 16pt;
   line-height: 20px;
   color: #498553;
 }
