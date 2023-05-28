@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Registration = () => {
     return (
@@ -11,11 +12,13 @@ const Registration = () => {
 			<div class="code-box">
 				<input type="text" name="" required="" placeholder='Ключ доступа'/>
 			</div>
+			<Link to={'/main'}>
 			<div class="accessing">
-				<a href="/">
+				
 					Подтвердить
-				</a>
 			</div>
+			</Link>
+
 		</form>
 	</div>
     );

@@ -31,7 +31,7 @@ import { Link } from "react-router-dom";
                     <img src={rain} className="information__sticker" alt=""/>
                 </div>
                 {/* <button> */}
-                <Link to={'/main'}> <input tupe="button" value="Подтвердить выбор" className="information__button"/> </Link>
+                <Link to={'/createPlant'}> <input tupe="button" value="Подтвердить выбор" className="information__button"/> </Link>
             </div>
         </div>
     )
