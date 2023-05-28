@@ -193,6 +193,10 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   text-align: center;
 }
+
+.main .right_side .information .information__button:hover {
+  background-color: #427948;
+}
 .main .left_side {
   max-width: 632px;
   min-height: 3224px;

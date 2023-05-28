@@ -1,6 +1,6 @@
 import React from 'react';
+// import Slider from "./scripts/Slider";
 import './styles/index.css'
-import './styles/slider.css'
 import './styles/square-plant-icon.css'
 import './styles/top-panel.css'
 import './styles/rectangular-plant-icon.css'
@@ -26,6 +26,7 @@ const Main = () => {
         </div>
         </div>
         <NotifTabs/>
+        {/* <Slider/> */}
     </div>
 
     <div class="rectangular-buttons">
