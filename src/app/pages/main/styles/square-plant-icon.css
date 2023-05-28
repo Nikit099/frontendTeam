@@ -77,8 +77,6 @@
     position: absolute;
     bottom: 167px;
     left: 128px;
-    -webkit-filter : hue-rotate(180deg);
-    filter : hue-rotate(180deg);
 }
 
 

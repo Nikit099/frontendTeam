@@ -1,29 +1,31 @@
 import React from 'react';
 import './login.css'
+import { Link } from "react-router-dom"
+
 const Login = () => {
     return (
         <div class="login-box">
 		<h2>Логин</h2>
 		<form>
 			<div class="user-box">
-				<input type="text" name="" required="" />
-				<label>Логин или почта</label>
+				<input type="text" name="" required="" placeholder='Имя' />
 			</div>
 			<div class="user-box-password">
-				<input type="password" name="" required="" />
-				<label>Пароль</label>
+				<input type="password" name="" required="" placeholder='Email' />
 			</div>
 
 			<div class="log-in">
-				<a href="/">
+				<Link to={'/choice'}>
 					Войти
-				</a>
+				</Link>
+
 
 			</div>
 			<div class="sign-up">
-				<a href="/">
+				<Link to={'/registr'}>
 					Создать аккаунт
-				</a>
+				</Link>
+				
 			</div>
 
 		</form>

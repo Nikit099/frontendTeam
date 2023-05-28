@@ -87,6 +87,17 @@
                 margin-top: 20px;
                 z-index: 1;
             }
+            .right_side__shadow{
+                height: 50px;
+                width: 60px;
+                background-color: black;
+                opacity: 20%;
+                position: absolute;
+                z-index: 0;
+                border-radius: 30%;
+                margin: 160px 0 0 80px;
+                filter: blur(10px);
+            } 
             .list_of_plants__stickers{
                 width: 150px;
                 height: 28px;

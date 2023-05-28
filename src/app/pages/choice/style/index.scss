@@ -10,7 +10,8 @@ $colorRightCard: #E9F3ED;
     justify-content: space-between;
     max-width: $wightProject;
     margin:0 auto;
-    max-height: 4224px;
+    max-height: 4524px;
+    margin-top: -33px;
     background-color: #F8F8F8;
 
     @import "./rightSide.scss";
@@ -26,6 +27,6 @@ $colorRightCard: #E9F3ED;
             display: none;
         }
         flex-direction: column-reverse;
-        max-height: 4224px;
+        max-height: 4524px;
     }
 }

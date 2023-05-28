@@ -23,7 +23,7 @@ import usePlantsStore from "../../store";
             </div>
             <div className="list_of_plants">
                 {
-                    filteredPlants.map((listPlants) =>  <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} /> )
+                    filteredPlants.map((listPlants) => <PlantsElement posts={listPlants.posts} title={listPlants.title} id={listPlants.id} /> )
                 }
             </div>
         </div>
