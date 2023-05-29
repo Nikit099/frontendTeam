@@ -70,6 +70,10 @@ body {
     z-index: 1;
 }
 
+.header a:hover {
+    filter: brightness(0.7);
+}
+
 .name {
     font-family: 'Montserrat';
     font-style: normal;
@@ -229,8 +233,13 @@ body {
     outline: none;
 
     background: url(media/pen.svg) no-repeat scroll 12px;
-    padding-left: 36px;
+    padding-left: 50px; 
 }
+
+.norms__input {
+    background-color: #ffffff;
+}
+
 
 .norms__input::placeholder{
     font-family: 'Inter';
@@ -243,6 +252,7 @@ body {
     align-items: center;
     text-align: center;
 
+    transform: translateX(-12px);
     color: #ACACAC;
 }
 
@@ -575,13 +585,17 @@ body {
     height: 33px;
     border: none;
     outline: none;
-    background: #FAFAFA;
+    background: #FFF;
     box-shadow: 0px 4px 19px -11px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
 
 
     background: url(./media/pen.svg) no-repeat scroll 7px 7px;
-    padding-left: 36px;
+    padding-left: 50px;
+}
+
+.themes__line__input {
+    background-color: #FFF;
 }
 
 .themes__line__input::placeholder {
@@ -595,6 +609,7 @@ body {
     align-items: center;
     text-align: center;
 
+    transform: translateX(-12px);
     color: #ACACAC;
 }
 
