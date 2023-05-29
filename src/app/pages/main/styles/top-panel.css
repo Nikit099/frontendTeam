@@ -12,7 +12,8 @@
     width: 1288px;
     position: relative;
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 70px;
+
 }
 
 .top-panel .slider {
@@ -57,7 +58,7 @@
     filter: drop-shadow(2px 4px 13px rgba(138, 138, 138, 0.25));
     display: flex;
     padding: 20px;
-    margin-left: 172px;
+    /* margin-left: 172px; */
 }
 
 .top-panel .search img {
