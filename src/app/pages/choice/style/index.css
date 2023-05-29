@@ -59,6 +59,7 @@ a, a:visited {
 }
 
 a:hover {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -213,10 +214,12 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
 }
 .main .right_side .information .information__button:hover {
+  cursor: pointer;
   background-color: #42794B;
 }
 
 .main .right_side .information .information__button:hover {
+  cursor: pointer;
   background-color: #427948;
 }
 .main .left_side {
@@ -273,9 +276,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #E9F3ED;
 }
 .main .left_side .list_of_plants .list_of_plants__element_plants:hover {
+  cursor: pointer;
   background-color: #D3E7DB;
 }
 .main .left_side .list_of_plants .list_of_plants__element_plants:hover .list_of_plants__left_top_figure {
+  cursor: pointer;
   background-color: #BFDFC9;
 }
 .main .left_side .list_of_plants .list_of_plants__element_plants .list_of_plants__left_top_figure {
