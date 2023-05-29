@@ -11,7 +11,12 @@
     align-items: center;
     justify-content: center;
 }
-
+.create_plants{
+    margin-top: -33px;
+}
+.right-background__dracena{
+    margin-left:175px;
+}
 .registration-box form {
     height: 40%;
     width: 60%;
@@ -24,7 +29,22 @@
     font-size: 16;
     margin-bottom: 75px;
 }
-
+.zoom-in{
+    width: 535px;
+    height: 121px;
+}
+.plant-button-for-choice-content{
+    padding-top: 30px;
+}
+.image_zoom-in{
+    width: 535px;
+    height: 121px;
+}
+.check-circle{
+    margin-top: 10px;
+    width: 43px;
+    height: 43px;
+}
 .registration-box form .plant-name-box {
     width: calc(100% - 40px);
     margin-bottom: 28px;

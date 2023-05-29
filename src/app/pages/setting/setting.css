@@ -94,13 +94,12 @@ body {
     min-height: 440px;*/
     margin-left: 145px;
     margin-right: 145px;
-    margin-top: -20px;
 }
 
 .top__left {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     flex: 1 1 576px;
     max-width: 576px;
@@ -301,58 +300,34 @@ body {
 }
 
 .top__right .plant__img {
-    position: absolute;
-    height: 50vh;
-    left: 40%;
-    transform: translateX(-50%);
+    height: 10%;
 }
 
 .top__right .plant_emoji_svg {
     position: absolute;
-    left: 30%;
-    transform: translateX(-50%);
-    top: 55%;
-    transform: translateY(-50%);
-}
-
-.top__right .plant-shadow {
-    position: absolute;
-    left: 30%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
-
-    bottom: 14%;
-    height: 30px;
-    width: 100px;
-    background-color: black;
-    opacity: 20%;
-    z-index: -5;
-    border-radius: 30%;
-    filter: blur(10px);
+    right: 34.4%;
+    top: 50%;
 }
 
 .bottom {
-    position: absolute;
+    position: relative;
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-content: flex-start;
     
     flex: 1 1 1350px;
-    width: 90%;
+    max-width: 1350px;
     min-width: 320px;
 
     padding: 40px 90px 40px 90px;
     margin-left: 45px;
     margin-right: 45px;
-
     background: #F6F6F6;
     border-radius: 61px 61px 0px 0px;
 
-    bottom: 0px;
-    left: 25%; 
-    transform: translateX(-30%);
+    top: -90px;
     z-index: 0;
 }
 
@@ -378,9 +353,8 @@ body {
 
 .bottom__left__buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 70%;
 
     flex: 1 1 540px;
     max-width: 540px;
@@ -505,7 +479,7 @@ body {
 .bottom__right__radio__buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     flex: 1 1 540px;
@@ -603,12 +577,11 @@ body {
     max-width: 326px;
     max-height: 35px;*/
 
-    margin-top: 36px;
+    margin-top: 27px;
 }
 
 .themes__line__input {
-    width: 280px;
-    margin-right: 10px;
+    width: 100%;
     height: 33px;
     border: none;
     outline: none;
@@ -734,40 +707,9 @@ body {
 
 @media (width <= 1050px){    
     .bottom {
-        position: relative;
         flex-flow: row wrap;
         justify-content: center;
        
-    }
-
-    .themes__line__input__block {
-        display: flex;
-        justify-content: center;
-
-        /*flex: 1 1 326px;
-        max-width: 326px;
-        max-height: 35px;*/
-
-        margin-top: 27px;
-    }
-
-    .themes__line__input {
-        width: 280px;
-        height: 33px;
-        border: none;
-        outline: none;
-        background: #FFF;
-        box-shadow: 0px 4px 19px -11px rgba(0, 0, 0, 0.25);
-        border-radius: 18px;
-
-
-        background: url(./media/pen.svg) no-repeat scroll 7px 7px;
-        padding-left: 50px;
-    }
-
-    .bottom__right__buttons {
-        display: flex;
-        justify-content: center;
     }
 
     .top {

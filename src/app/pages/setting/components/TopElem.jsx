@@ -18,7 +18,6 @@ const TopElem = () => {
         <div className="top__right">
             <img alt='' calss="plant__img" className="plant__img" src={plant}/>
             <img alt='' className="plant_emoji_svg" src={emoji}/>
-            <div className='plant-shadow'></div>
         </div>
     </div>
 

@@ -14,7 +14,6 @@ const Registration = () => {
 			</div>
 			<Link to={'/main'}>
 			<div class="accessing">
-				
 					Подтвердить
 			</div>
 			</Link>
