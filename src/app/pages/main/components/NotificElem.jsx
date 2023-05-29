@@ -25,6 +25,7 @@ const NotificElem = ({name,  recomendate,  plant, elems, face,}) => {
                             <img alt='' src={rain} class="right-button-small-icon" />
                         </div>
                     </div>
+                    <div className='square-button-plant-shadow'></div>
                     <img alt=''  src={plantF} class="plant-icon" height="182" width="182" />
                     <img alt='' src={frozen} class="state-icon" />
                 </button>

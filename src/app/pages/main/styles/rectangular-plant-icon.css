@@ -27,6 +27,19 @@
     margin-bottom: 38px;
 }
 
+.rectangular-button .plant-shadow {
+    bottom: 20px;
+    left: 12.5%;
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    opacity: 20%;
+    position: absolute;
+    z-index: -5;
+    border-radius: 30%;
+    filter: blur(10px);
+}
+
 .rectangular-button-text {
     display: flex;
     flex-direction: column;
@@ -99,7 +112,6 @@
     position: absolute;
     left: -6px;
     bottom: 20px;
-    filter: drop-shadow(0px 4px 4px rgba(000, 000, 000, 0.25));
 }
 
 .rectangular-button-plant-state-icon {
