@@ -2,6 +2,7 @@ import React from 'react';
 import plant from '../media/plant.png'
 import NormPanel from './panels/NormPanel';
 import Condition from './Condition';
+import emoji from '../media/emoji-pleased.svg';
 
 const TopElem = () => {
     return (
@@ -15,7 +16,8 @@ const TopElem = () => {
         </div>
 
         <div className="top__right">
-            <img alt='' calss="plant__img" src={plant}/>
+            <img alt='' calss="plant__img" className="plant__img" src={plant}/>
+            <img alt='' className="plant_emoji_svg" src={emoji}/>
         </div>
     </div>
 

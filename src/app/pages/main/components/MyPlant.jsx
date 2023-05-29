@@ -15,6 +15,7 @@ const MyPlant = ({name, type, recomendate, plant, elems, face, date }) => {
         <Link to={'/setting'}>
              <button class="rectangular-button">
             <img alt='' src={Nina} class="rectangular-button-plant-icon" width="202px" height="188px" />
+            <div className='plant-shadow'></div>
             <div class="rectangular-button-state-display">
                 <img alt=''  src={emoji} class="rectangular-button-plant-state-icon" />
             </div>

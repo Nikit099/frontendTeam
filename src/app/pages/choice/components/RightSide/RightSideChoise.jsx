@@ -6,6 +6,7 @@ import rain from '../../image/rain.png';
 import usePlantsStore from "../../store";
 // import infPlant from '../../ui/infPlant/infPlant'
 import InfPlant from "../../../../components/ui/infPlant/infPlant";
+import { Link } from "react-router-dom";
 
  const RightSideChoise = () =>{
     const plantChoiced = usePlantsStore((state) => state.PlantChoiced)
@@ -30,7 +31,8 @@ import InfPlant from "../../../../components/ui/infPlant/infPlant";
                     <img src={dawn} className="information__sticker" alt=""/>
                     <img src={rain} className="information__sticker" alt=""/>
                 </div>
-                <button type="button" className="information__button">Подтвердить выбор</button>
+                
+                <Link to={'/CreatePlant'}><button type="button" className="information__button">Подтвердить выбор</button></Link>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -25,6 +27,8 @@ body {
 }
 
 .login-box h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16pt;
 	margin: 0 0 42px;
 	color: #000;
 	text-align: center;
@@ -48,10 +52,11 @@ body {
 	border: none;
 	border-radius: 13px;
 	color: #8C8B8B;
-	background: transparent;
+	background: #FFF;
 }
 
 .login-box form .user-box label {
+	font-family: 'Inter', sans-serif;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -75,6 +80,7 @@ body {
 }
 
 .login-box form .user-box-email input {
+	font-family: 'Inter', sans-serif;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 	width: 100%;
 	height: 50px;
@@ -83,10 +89,11 @@ body {
 	border: none;
 	border-radius: 13px;
 	color: #8C8B8B;
-	background: transparent;
+	background: #FFF;
 }
 
 .login-box form .user-box-email label {
+	font-family: 'Inter', sans-serif;
 	position: absolute;
 	left: 0;
 	padding: 16px 20px;
@@ -106,6 +113,7 @@ body {
 }
 
 .login-box form .user-box-code input {
+	font-family: 'Inter', sans-serif;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 	width: 100%;
 	height: 50px;
@@ -114,10 +122,11 @@ body {
 	border: none;
 	border-radius: 13px;
 	color: #8C8B8B;
-	background: transparent;
+	background: #FFF;
 }
 
 .login-box form .user-box-code label {
+	font-family: 'Inter', sans-serif;
 	position: absolute;
 	left: 0;
 	padding: 16px 20px;

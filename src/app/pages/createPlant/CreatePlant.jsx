@@ -5,9 +5,11 @@ import Registration from './components/Registration';
 import Plant from './components/Plant';
 const CreatePlant = () => {
     return (
-        <>
-        <Registration/>
-        <Plant/>
+    <>
+        <div className='create_plants'>
+            <Registration/>
+            <Plant/>
+        </div>
     </>
     );
 };
